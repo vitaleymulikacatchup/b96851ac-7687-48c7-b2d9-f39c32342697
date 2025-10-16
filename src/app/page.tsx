@@ -70,6 +70,8 @@ export default function Home() {
               { title: "Fresh Ingredients", description: "We source local and fresh ingredients for the best taste.", icon: Zap },
               { title: "Traditional Oven", description: "Our pizzas are baked to perfection in a traditional oven.", icon: Zap }
             ]}
+            title="Our Features"
+            description="Discover what makes us different"
             className="bg-red-100"
             cardTitleClassName="text-red-900"
             cardDescriptionClassName="text-red-900"
