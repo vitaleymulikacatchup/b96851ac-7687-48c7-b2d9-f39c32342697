@@ -6,6 +6,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import FeatureCardTwo from '@/components/sections/feature/FeatureCardTwo';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
+import { Zap, Fire } from 'lucide-react';
 
 const assetMap = [
   { id: "hero-image", url: "https://images.pexels.com/photos/5216394/pexels-photo-5216394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940", alt: "Warm and inviting Italian cafe with a variety of pizzas and drinks displayed on a counter." },
@@ -66,8 +67,8 @@ export default function Home() {
         <div className="mx-auto px-4 md:px-6 ">
           <FeatureCardTwo
             features={[
-              { title: "Fresh Ingredients", description: "We source local and fresh ingredients for the best taste.", icon: "Zap" },
-              { title: "Traditional Oven", description: "Our pizzas are baked to perfection in a traditional oven.", icon: "Fire" }
+              { title: "Fresh Ingredients", description: "We source local and fresh ingredients for the best taste.", icon: Zap },
+              { title: "Traditional Oven", description: "Our pizzas are baked to perfection in a traditional oven.", icon: Fire }
             ]}
             className="bg-red-100"
             cardTitleClassName="text-red-900"
