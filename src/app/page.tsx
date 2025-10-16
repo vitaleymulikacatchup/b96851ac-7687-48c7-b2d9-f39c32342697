@@ -84,6 +84,8 @@ export default function Home() {
             tag="Newsletter"
             title="Stay Updated with Our Offers"
             description="Join our mailing list for the latest news and pizza deals."
+            buttonText="Subscribe"
+            termsText="By clicking Subscribe you're confirming that you agree with our Terms and Conditions."
             onSubmit={(email) => console.log(email)}
             className="bg-red-100"
             titleClassName="text-red-900"
